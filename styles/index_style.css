@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     max-height: 100px;
+    min-width: 1920px;
 }
 .nav_logo_container{
     display: flex;
@@ -20,7 +21,7 @@
 .nav_logo_para{
     font-size: 28px;
     font-weight: 900;
-    color: green;
+    color: #013223;
 }
 .nav_logo{
     max-width: 50px;
@@ -42,15 +43,22 @@
 .nav_heart_container{
     display: flex;
     align-items: center;
-    background-color: skyblue;
-    border: 1px skyblue;
+    background-color: rgb(166, 216, 235);
+    border: 1px rgb(164, 205, 221);
     border-radius: 9999px;
-    padding: 15px 20px 15px 20px;
+    padding: 2px 36px 2px 36px;
 }
 .nav_copy{
+    max-width: 114px;
+    max-height: 52px;
+    /* padding: 14px 36px 30px 36px; */
+    padding: 14px 36px 14px 36px;
     background-color: #00A63E;
-    padding: 15px 20px 15px 20px;
-    border-radius: 40%;
+    border-radius: 50px;
+    border-style: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 /* banner styles */
@@ -58,7 +66,8 @@
     display: flex;             
     flex-direction: column;     
     justify-content: center;    
-    align-items: center;        
+    align-items: center;     
+    min-width: 1920px;   
     max-height: 240px;
     background-color: #013223;  
 }
@@ -84,12 +93,18 @@
 
 /* card styles */
 .card_parent{
+    min-width: 1370px;
+    margin: 20px -20px 10px 5px;
+    padding: 48px 0px 48px 58px;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+    /* background-color: #DFEFFF; */
 }
 .whole_card_container{
+    /* margin: 20px; */
     display: flex;
     justify-content: space-between;
+    background-color: #DFEFFF;
 }
 .card_container{
     max-width: 435px;
@@ -97,15 +112,16 @@
     border: 2px solid lightgrey;
     background-color: white;
     border-radius: 12px;
-    padding: 30px 30px 30px 30px;
+    border-style: none;
+    margin: 5px 5px 15px 5px;
     
 }
 .card_logo_container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 32px 32px 0px 33px;
-    margin-bottom: -40px;
+    padding: 10px 10px 0px 10px;
+    margin-bottom: -30px;
     
 }
 .card_logo{
@@ -120,7 +136,7 @@
     max-height: 24px;
 }
 .card_description{
-    padding: 32px 32px 0px 32px;
+    padding: 10px 10px 0px 10px;
 }
 .card_title{
     font-weight: bold;
@@ -133,7 +149,8 @@
     color: grey;
 }
 .card_phone_number{
-    margin-bottom: -20px;
+    margin-top: -10px;
+    margin-bottom: -15px;
 }
 .card_All{
     padding: 6px 16px 6px 16px;
@@ -162,24 +179,16 @@
 /* aside bar styles */
 .aside_bar_container{
     background-color: white;
-    max-width: 400px;
+    min-width: 400px;
     max-height: 1100px;
-    padding:24px 24px 16px 24px;
+    margin:70px 50px 10px 0px;
+    border-radius: 12px;
 }
-.aside_bar_container{
-    /* display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
-    /* text-align: center;
- 
-    background-color: white;
-      */ 
-}
-.aside_bar_navigation{
+.aside_bar_nav_container{
     display: flex;
     justify-content: space-between;
-    text-align: center;
-    /* margin: 24px 24px 16px 24px; */
+    /* text-align: center; */
+    padding: 20px 10px 10px 10px; 
 }
 .aside_btn{
     max-width: 114px;
