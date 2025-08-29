@@ -13,7 +13,7 @@ const totalCoins = document.getElementById("total_coin")
 const calls = document.getElementsByClassName("call")
 for(const calling of calls){
     calling.addEventListener("click", function(){
-        alert("You are calling:\n"+calling.parentElement.parentElement.firstElementChild.innerText+"( "+calling.parentElement.parentElement.children[2].innerText+" )");
+        alert("You are calling:\n"+calling.parentElement.parentElement.firstElementChild.innerText+" ( "+calling.parentElement.parentElement.children[2].innerText+" )");
         let totalCoinsValue = parseInt(totalCoins.innerText);
         
         if(totalCoinsValue<20){
