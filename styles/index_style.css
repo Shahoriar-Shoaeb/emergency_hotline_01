@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 .hind_madurai_font{
     font-family: "Hind Madurai", sans-serif;
 }
+.inter_font{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+    
 
 /* nav styles */
 .nav_container{
@@ -69,7 +76,9 @@
     align-items: center;     
     min-width: 1920px;   
     max-height: 240px;
-    background-color: #013223;  
+    /* background-color: #013223;   */
+    background: linear-gradient(to right, #013223,  #006747, #013223 );
+    /* linear-gradient(to right, #013223,  #006747, #013223 ); */
 }
 .banner_logo{
     max-width: 90px;
@@ -206,4 +215,28 @@
     font-size: 20px;
     /* padding: 24px 24px 16px 24px; */
     padding-top: 10px;
+}
+#aside_bar_new{
+    display: flex;
+    justify-content: space-between;
+    max-width: 352px;
+    max-height: 83px;
+    align-items: center;
+    margin: 12px;
+    padding: 16px;
+    background-color: rgb(194, 190, 190, 25% );
+    border-radius: 8px;
+
+}
+.aside_bar_new_sub{
+    font-size: 18px;
+}
+.aside_bar_new_sub_title{
+    max-width: 215px;
+}
+.aside_bar_new_sub_sub_title{
+    color: gray;
+}
+.aside_bar_time{
+    align-items: center;
 }
